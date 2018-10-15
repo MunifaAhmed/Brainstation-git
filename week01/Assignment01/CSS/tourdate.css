@@ -1,0 +1,40 @@
+
+.headertour{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+     }
+.container{
+    padding:15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-top: 70px;
+}
+.row{
+    margin: 2%;
+  }
+@media screen and (min-width: 600px) {
+    h1.headertour {
+      font-size: 35px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    h1.headertour {
+      font-size: 25px;
+    }
+  }   
+@media screen and (min-width: 600px) {
+    div.row {
+      font-size: 16px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    div.row {
+      font-size: 14px;
+    }
+  } 

@@ -1,0 +1,25 @@
+#profile{
+    background: cover;
+    background-image:center;
+    height: 60%;
+    width: 100%;
+
+}
+h2{
+    font-weight: bold;
+    font-size: 30px
+    
+
+  }
+.container2a{
+    padding:50px;
+    font-family: 'Times New Roman', Times, serif
+}
+.img-fluid {
+    border-radius: 25px;
+    border: 2px solid rgba(247, 226, 111, 0.842);
+    padding: 5px; 
+    width: 300px;
+    height: 200px;    
+}
+  

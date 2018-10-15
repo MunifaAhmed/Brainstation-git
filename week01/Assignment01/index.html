@@ -1,0 +1,102 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+</head>
+    <body>
+        
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="themusic.html">The Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tourdates.html">Tour Dates</a>
+            </li>
+          </ul>
+          
+           <div id= "video"> <!--The video is displayed with audio when command+R is pressed, the error is mentioned on network is not clear -->
+          <video  width= 400  autoplay>
+              <source src="images/Maher video.mp4" type="video/mp4">
+              <source src="images/Maher video.mp4" type="video/ogg">
+          </video>
+          </div>
+        
+          <div class= "container">
+            <h1 class= "headerhome">Join us TODAY</h1>
+           <div id= "paragraphhome">
+            <p >Become a member in Maher Zain Page and take advantage of:</p>
+            <a href="tourdates.html"> &#10003; Access to Pre-Sale Tickets</a> <br>
+            <a href="tourdates.html"> &#x2713; Members-only sales and promotions </a>
+           </div>
+          </div>
+
+          <div class= "containerform">
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="name">Full Name:</label>
+                  <input type="username" class="form-control" id="name" placeholder="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">State</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+          </div>
+          
+   
+          <script type="text/javascript" src="assign.js"></script>
+    </body>
+
+
+</html>

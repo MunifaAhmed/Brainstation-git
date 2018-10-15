@@ -1,0 +1,66 @@
+#video{ 
+    padding-top: 62px;
+  }
+video {
+    width: 100%;
+    height: auto;
+}
+.container{ 
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color:  black;
+}
+.headerhome{ 
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+#checkline a:hover{
+    font-weight: bold;
+}
+#paragraphhome{
+    margin: 30px;
+    word-spacing: 2px;
+}  
+.containerform{
+    padding: 100px;
+    color:  black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+@media screen and (min-width: 600px) { /* @media coding is for making the website flexible for viewing on different screen size*/
+    div.container {
+      font-size: 25px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    div.container {
+      font-size: 18px;
+    }
+  }
+@media screen and (min-width: 600px) {
+    h1.headerhome {
+      font-size: 40px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    h1.headerhome  {
+      font-size: 28px;
+    }
+  }
+@media screen and (min-width: 600px) {
+    div.containerform {
+      font-size: 18px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    div.containerform  {
+      font-size: 12px;
+    }
+  } 

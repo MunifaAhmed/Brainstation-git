@@ -1,0 +1,57 @@
+.header{
+    border: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 70px;
+  }
+.headeralbum{
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (min-width: 600px) {
+    div.header{
+      font-size: 23px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    div.header {
+      font-size: 18px;
+    }
+  } 
+@media screen and (min-width: 600px) {
+    h1.headeralbum {
+      font-size: 35px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    h1.headeralbum  {
+      font-size: 25px;
+    }
+  } 
+.albumgrid{
+    text-align: center;
+}
+.gridspace{
+    padding: 10px;
+    border-width: 10px;
+}
+.row{
+    margin: 2%;
+}
+.containerd{
+    padding:15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;     
+    font-size: 15px;
+    padding-top: 70px;
+ }
+ .img-fluid {
+    border-radius: 25px;
+    border: 2px solid rgba(247, 226, 111, 0.842);
+    padding: 5px; 
+    width: 300px;
+    height: 200px;    
+}

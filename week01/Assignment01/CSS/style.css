@@ -1,0 +1,36 @@
+.nav{ 
+  position: fixed;
+  width: 100% ;
+  color: white;
+  padding: 10px;
+  background-color: rgba(241, 220, 101, 0.842)
+} 
+a:hover{
+  font-weight:bold;
+  text-decoration:none;
+  color: rgba(241, 220, 101, 0.842)
+}
+a{
+  color: black;
+}
+h1 {
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+#profile{
+  background: cover;
+  background-image:center;
+  height: 100%;
+  width: 100%;
+} 
+
+
+.nav a{ /* The location of this style is located here to override the a style for the a:hover color */
+  color: black;
+  }
+
