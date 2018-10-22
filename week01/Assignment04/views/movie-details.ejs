@@ -1,29 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    </head>
-    <h2>Movie Detail</h2>
+<%- include partials/header.ejs%>
     <body>
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">
-    <ul>
-     <li><%= movie.title%></li>
-     <li><%= movie.year%></li>
-     <li><%= movie.rated%></li>
-     <li><%= movie.plot%></li>
-     <li><%= movie.writer%></li>
-     <li><%= movie.actors%></li>
-     <li><%= movie.language%></li>
-     </ul>
-    </div>
-    </div>
-    
+        <div class="container1">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li class='list-group-item'>
+                            Title:
+                            <%= movie.title%>
+                        </li>
+                        <li class='list-group-item'>
+                            Overview:
+                            <%= movie.plot%>
+                        </li>
+                        <li class='list-group-item'>
+                            Writer:
+                            <%= movie.writer%>
+                        </li>
+                        <li class='list-group-item'>
+                            Director:
+                            <%= movie.director%>
+                        </li>
+                        <li class='list-group-item'>
+                            Released
+                            <%= movie.released%>
+                        </li>
+                        <li class='list-group-item'>
+                            Actors:
+                            <%= movie.actors%>
+                        </li>
+                        <li class='list-group-item'>
+                            Runtime:
+                            <%= movie.runtime%>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <span>
+
+                        <iframe width="533" height="350" src="<%= movie.trailor%>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </span>
+                </div>
+            </div>
+
+        </div>
     </body>
-</html>
+<%- include partials/footer.ejs%>

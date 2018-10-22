@@ -1,12 +1,17 @@
-$headerColor: blue;//scss is subset to css but not vice versa
+$headerColor: blue;
+$bodyFont: bold;
+$text-position: center;
 
 h1{
-    color: $headerColor
+    color: $headerColor;
+
 }
 
 .container{
     padding:10px;
     h1{
-        color: $headerColor
+        color: $headerColor;
+        font-weight: $bodyFont
+        
     }
 }

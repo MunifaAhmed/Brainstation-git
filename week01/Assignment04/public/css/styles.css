@@ -1,13 +1,61 @@
-h1{
-    font-weight: bold;
-    color: red;
-    text-align: center;
-    padding: 50px;
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
     
 }
-h2{
+
+input[type=search] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid  rgba(103, 158, 21, 0.897);
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.btn{
+    border: 2px solid rgba(103, 158, 21, 0.897);
+    margin: 5px;
+}
+input[type=search]:focus {
+    width: 100%;
+}
+
+.row{
+    margin-top: 60px;
+}
+.card{
+    margin: 20px;
+}
+footer{
+    background-color:  rgba(103, 158, 21, 0.897);
+}
+a{
+    color:   rgba(103, 158, 21, 0.897);
     font-weight: bold;
-    color: red;
-    text-align: center;
-    padding: 50px;
+}
+.card{
+    border: 1px solid rgba(103, 158, 21, 0.897);
+}
+.container1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col1{
+    margin: 5px;
+    
+}
+.card-img-top {
+    width: 800px;
+    object-fit: cover;
+   
 }
