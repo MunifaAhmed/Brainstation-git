@@ -95,6 +95,7 @@ class ListofTasks extends Component {
       tem[i].complete = !tem[i].complete
     }
     }
+    
     this.setState({
         todoList: tem
       })
