@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+*{
+  font-family: 'Dancing Script', cursive;
+}
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(58, 220, 231, 0.5);
+  line-height: 95px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.5s all;
+}
+nav ul li a{
+  padding: 20px;
+  font-size: 40px;
+  text-decoration: none;
+  color: whitesmoke
+}
+a:hover { 
+  color: rgb(31, 74, 153); 
+  text-decoration: none; 
+  font-weight: none 
+}
+#name{
+  position: absolute; 
+  top: 35px; 
+  right: 50px; 
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+#home{
+  margin: 80px;
+}
+form{
+  margin: 80px;
+}
+input{
+  padding: 10px 25px;
+  border: 2px solid rgba(58, 220, 231, 0.8);
+  border-radius: 5px;
+}
+button{
+  background-color:  rgba(58, 220, 231, 0.8);
+  border: none;
+  color:black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size:20px;
+  border-radius: 5px;
+  
+}
+#shopnav{
+    font-size: 35px;
+    margin: 25px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
